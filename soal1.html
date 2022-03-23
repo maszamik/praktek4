@@ -1,0 +1,32 @@
+<html>
+<head>
+    <title> Soal 1 </title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript">
+            $(document).ready(function() {
+            $(".sembunyikan1").click(function() {
+                $("#foto1").hide("slow")
+            });
+            $(".tampilkan1").click(function() {
+                $("#foto1").show("slow")
+            });
+            $(".sembunyikan2").click(function() {
+                $("#foto2").hide("slow")
+            });
+            $(".tampilkan2").click(function() {
+                $("#foto2").show("slow")
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button class="sembunyikan1">sembunyikan</button>
+    <button class="tampilkan1">tampilkan</button>
+    <p><img id="foto1" src="kartun1.png"></p>
+<body>
+<button class="sembunyikan2">sembunyikan</button>
+<button class="tampilkan2">tampilkan</button>
+    <p><img id="foto2" src="kartun2.jpg"></p>
+</body>
+    </html>
